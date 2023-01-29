@@ -49,7 +49,7 @@
   .landingHOME p {
     position: absolute;
     color: var(--background-kleur);
-    top: -15.25em;
+    top: -18em;
   }
 
   .landingHOME img {
