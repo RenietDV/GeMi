@@ -1,0 +1,1010 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@600&family=Raleway&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-kleur: #ffffff;
+  --blauw-kleur: #589ec1;
+  --groen-kleur: #9fcd8d;
+}
+
+.landingHOME h1 {
+  color: transparent;
+}
+
+/* LANDING - KLEIN! */
+@media screen and (max-width: 500px) {
+  .middle {
+    display: none;
+  }
+
+  .big {
+    display: none;
+  }
+
+  .bigger {
+    display: none;
+  }
+
+  .biggest {
+    display: none;
+  }
+
+  .landingHOME {
+    overflow-x: hidden;
+    margin-top: -3em;
+  }
+
+  .landingHOME section {
+    position: relative;
+    margin: 0em 3em 3em 3em;
+  }
+
+  .landingHOME p {
+    position: absolute;
+    color: var(--background-kleur);
+    top: -15.25em;
+  }
+
+  .landingHOME img {
+    z-index: -4;
+  }
+}
+
+/* LANDING - MIDDLE! */
+@media screen and (min-width: 501px) and (max-width: 650px) {
+  .small {
+    display: none;
+  }
+
+  .big {
+    display: none;
+  }
+
+  .bigger {
+    display: none;
+  }
+
+  .biggest {
+    display: none;
+  }
+
+  .landingHOME {
+    overflow-x: hidden;
+    margin-top: -3em;
+  }
+
+  .landingHOME section {
+    position: relative;
+    margin: 0em 3em 3em 3em;
+  }
+
+  .landingHOME p {
+    position: absolute;
+    color: var(--background-kleur);
+    top: -14em;
+  }
+
+  .landingHOME img {
+    z-index: -4;
+  }
+}
+
+/* LANDING - BIG! */
+@media screen and (min-width: 651px) and (max-width: 850px) {
+  .small {
+    display: none;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .bigger {
+    display: none;
+  }
+
+  .biggest {
+    display: none;
+  }
+
+  .landingHOME {
+    overflow-x: hidden;
+    margin-top: -3em;
+  }
+
+  .landingHOME section {
+    position: relative;
+    margin: 0em 4em 3em 4em;
+  }
+
+  .landingHOME p {
+    position: absolute;
+    color: var(--background-kleur);
+    top: -13em;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+  .landingHOME img {
+    z-index: -4;
+  }
+}
+
+/* LANDING - BIGGER! */
+@media screen and (min-width: 851px) and (max-width: 1200px) {
+  .small {
+    display: none;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .big {
+    display: none;
+  }
+
+  .biggest {
+    display: none;
+  }
+
+  .landingHOME p {
+    color: transparent;
+  }
+
+  .landingHOME {
+    overflow-x: hidden;
+    margin-top: -3em;
+  }
+
+  .landingHOME img {
+    z-index: -4;
+  }
+}
+
+/* LANDING - BIGGER! */
+@media screen and (min-width: 1201px) {
+  .small {
+    display: none;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .big {
+    display: none;
+  }
+
+  .bigger {
+    display: none;
+  }
+
+  .landingHOME p {
+    color: transparent;
+  }
+
+  .landingHOME {
+    overflow-x: hidden;
+    margin-top: -2.5em;
+  }
+
+  .landingHOME img {
+    z-index: -4;
+  }
+}
+
+/* ------------------------------------------- */
+
+/* ARTIKELLANDING - KLEIN! */
+@media screen and (max-width: 650px) {
+  .articlemiddle {
+    display: none;
+  }
+
+  .articlebig {
+    display: none;
+  }
+
+  .landing {
+    overflow-x: hidden;
+    margin-top: -3em;
+  }
+
+  .landing img {
+    z-index: -4;
+  }
+}
+
+/* ARTIKELLANDING - MIDDLE! */
+@media screen and (min-width: 651px) and (max-width: 1000px) {
+  .articlesmall {
+    display: none;
+  }
+
+  .articlebig {
+    display: none;
+  }
+
+  .landing {
+    overflow-x: hidden;
+    margin-top: -3em;
+  }
+
+  .landing img {
+    z-index: -4;
+  }
+}
+
+/* ARTIKELLANDING - BIG! */
+@media screen and (min-width: 1001px) {
+  .articlesmall {
+    display: none;
+  }
+
+  .articlemiddle {
+    display: none;
+  }
+
+  .landing {
+    overflow-x: hidden;
+    margin-top: -3em;
+  }
+
+  .landing img {
+    z-index: -4;
+  }
+}
+
+
+/* ------------------------------------------- */
+
+p {
+  font-family: "Raleway", sans-serif;
+  color: white;
+
+  padding-top: 0.2em;
+  padding-bottom: 0.5em;
+  line-height: 1.5em;
+}
+
+/* --- MENU --- */
+
+button {
+  background-color: white;
+  border: none;
+}
+
+/* Menu button */
+header p {
+  background-color: var(--blauw-kleur);
+  font-family: "Fredoka", sans-serif;
+  color: white;
+
+  border-radius: 2em;
+
+  padding: 1.4em;
+  padding-left: 2em;
+  padding-right: 2em;
+
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+
+}
+
+header p:hover {
+  background-color: var(--groen-kleur);
+  transition: 0.5s;
+}
+
+nav {
+  background-color: white;
+
+  position: fixed;
+  top: 0em;
+  left: 0em;
+  bottom: 0em;
+  right: 0em;
+
+  text-align: center;
+
+  z-index: 5;
+
+  transform: translateY(-120%);
+  transition: 0.3s;
+
+  padding-top: 2em;
+}
+
+/* Sluit button */
+nav button {
+  margin-bottom: 2em;
+  border: none;
+}
+
+/* Menu knoppen */
+
+nav li {
+  margin: 5em;
+  list-style: none;
+}
+
+nav a {
+  font-family: "Fredoka", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 1.25em;
+
+  background-color: var(--groen-kleur);
+  padding: 0.8em 1.5em 0.8em 1.5em;
+  border-radius: 2em;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+  transition: 0.2s;
+}
+
+nav a:hover {
+  margin-left: 1em;
+  background-color: var(--blauw-kleur);
+  border-radius: 3em;
+
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+nav a.current {
+  background-color: var(--blauw-kleur);
+}
+
+/* Onderstaande tekst zorgt ervoor dat hamburgermenu
+verdwijnt na 650px schermbreedte*/
+
+@media screen and (max-width: 650px) {
+  nav.toonmenu {
+    transform: translateY(0);
+    z-index: 3;
+    transition: 0.3s;
+  }
+
+  .buttons {
+    display: none;
+  }
+}
+
+/* Onderstaande tekst zorgt ervoor dat nav menu opties
+verdwijnt na 651px schermbreedte*/
+
+@media screen and (min-width: 651px) {
+  header ul {
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+  }
+
+  .buttons a {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+
+    background-color: var(--groen-kleur);
+    padding: 0.8em 1em 0.8em 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+    border-radius: 2em;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+    transition: 0.2s;
+  }
+
+  .buttons a.current {
+    background-color: var(--blauw-kleur);
+  }
+
+  .buttons a:hover {
+    margin-right: 1em;
+    background-color: var(--blauw-kleur);
+    border-radius: 3em;
+
+    text-decoration: underline;
+    transition: 0.2s;
+  }
+
+  header button {
+    display: none;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
+
+/* Main */
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+main a {
+  background-color: white;
+
+  font-family: "Fredoka", sans-serif;
+  color: var(--groen-kleur);
+  text-decoration: none;
+
+  padding: 0.7em;
+
+  border: 0.3em solid var(--groen-kleur);
+  box-shadow: 0px 0px 5px rgba(62, 62, 62, 0.37);
+  border-radius: 2em;
+  transition: .3s;
+}
+
+.plaatjelink {
+  border: none;
+  box-shadow: none;
+  transition: .3s;
+}
+
+.plaatjelink img:hover {
+  transform: rotate(2deg);
+  transition-duration: .3s;
+  transition: .3s;
+}
+
+main h3 {
+  font-size: 2em;
+  font-family: "Fredoka", sans-serif;
+  color: var(--blauw-kleur);
+}
+
+main p {
+  font-family: "Raleway", sans-serif;
+  color: var(--blauw-kleur);
+
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+}
+
+main img {
+  width: 105%;
+  height: auto;
+  z-index: -1;
+  transition: .3s;
+}
+
+/* --- Header --- */
+
+header {
+  background-color: white;
+
+  position: sticky;
+  top: 0;
+  z-index: 12;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2em;
+  height: 5em;
+
+  border-radius: 0em 0em 0em 3em;
+
+  box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.26);
+}
+
+header img {
+  width: 70px;
+  height: 60px;
+}
+
+/* --- Section Welkom! --- */
+.landing {
+  z-index: -1;
+}
+
+.contact {
+margin-left: auto;
+margin-right: auto;
+
+  margin-top: 4em;
+  margin-bottom: 2em;
+  width: max-content;
+}
+
+.contact h1 {
+  font-size: 2em;
+  font-family: "Fredoka", sans-serif;
+  color: var(--blauw-kleur);
+}
+
+.contact hr {
+  border-top: 0.4em solid var(--blauw-kleur);
+  border-radius: 2em;
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* --- Articles Homepage KLEIN --- */
+@media screen and (max-width: 650px) {
+  article {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: min-content;
+  }
+
+  article p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  article img {
+    width: 300px;
+    border-radius: 1em;
+  }
+
+  article:nth-child(odd) h2 {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 1em;
+
+    padding: 0.8em;
+    border-radius: 2em;
+    background-color: var(--blauw-kleur);
+    box-shadow: 0px 0px 5px rgba(62, 62, 62, 0.37);
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  article:nth-child(even) h2 {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 1em;
+
+    padding: 0.8em;
+    border-radius: 2em;
+    background-color: var(--groen-kleur);
+    box-shadow: 0px 0px 5px rgba(62, 62, 62, 0.37);
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* --- Articles Homepage MIDDEL --- */
+
+@media screen and (min-width: 651px) and (max-width: 1000px) {
+  article {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: min-content;
+  }
+
+  article p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  article img {
+    width: 400px;
+    border-radius: 1em;
+  }
+
+  article:nth-child(odd) h2 {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 1em;
+
+    padding: 0.8em;
+    border-radius: 2em;
+    background-color: var(--blauw-kleur);
+    box-shadow: 0px 0px 5px rgba(62, 62, 62, 0.37);
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  article:nth-child(even) h2 {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 1em;
+
+    padding: 0.8em;
+    border-radius: 2em;
+    background-color: var(--groen-kleur);
+    box-shadow: 0px 0px 5px rgba(62, 62, 62, 0.37);
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* --- Articles Homepage GROOT --- */
+@media screen and (min-width: 1001px) {
+  main a {
+    border: none;
+    box-shadow: none;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+  }
+
+  article p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 40vw;
+  }
+
+  article img {
+    width: 300px;
+    transition: .3s;
+    border-radius: 1em;
+  }
+
+  article:nth-child(odd) h2 {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 1em;
+
+    padding: 0.8em;
+    border-radius: 2em;
+    background-color: var(--blauw-kleur);
+    box-shadow: 0px 0px 5px rgba(62, 62, 62, 0.37);
+
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  article:nth-child(even) h2 {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 1em;
+
+    padding: 0.8em;
+    border-radius: 2em;
+    background-color: var(--groen-kleur);
+    box-shadow: 0px 0px 5px rgba(62, 62, 62, 0.37);
+
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -5em;
+
+  }
+
+  article a:nth-of-type(2) {
+    display: none;
+  }
+}
+
+/* Lees Pagina's */
+/* Artikelen op kleine schermen */
+
+@media screen and (max-width: 650px) {
+  .lees {
+    text-align: left;
+    margin: 1.5em;
+    margin-top: 5em;
+  }
+
+  .lees li {
+    font-family: "Raleway", sans-serif;
+    color: var(--blauw-kleur);
+
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  .lees ul {
+    margin-bottom: 4em;
+  }
+
+  .lees h2 {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 1em;
+    text-align: left;
+
+    padding: 0.8em;
+    border-radius: 2em;
+    background-color: var(--blauw-kleur);
+    box-shadow: 0px 0px 5px rgba(62, 62, 62, 0.37);
+
+    max-width: 300px;
+    margin-bottom: 2em;
+  }
+
+  .klein {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75%;
+    width: 75%;
+
+    margin-top: 2em;
+    margin-bottom: 4em;
+
+    border-top: 0.2em solid var(--background-kleur);
+    border-radius: 2em;
+  }
+
+  .groot {
+    display: none;
+  }
+}
+
+/* Artikelen op middelgrote schermen */
+@media screen and (min-width: 651px) and (max-width: 1000px) {
+  .lees {
+    text-align: left;
+    margin-top: 5em;
+    margin-left: 7em;
+    margin-right: 7em;
+  }
+
+  .lees li {
+    font-family: "Raleway", sans-serif;
+    color: var(--blauw-kleur);
+
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  .lees ul {
+    margin-bottom: 4em;
+  }
+
+  .lees h2 {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 1em;
+    text-align: left;
+
+    padding: 0.8em;
+    border-radius: 2em;
+    background-color: var(--blauw-kleur);
+    box-shadow: 0px 0px 5px rgba(62, 62, 62, 0.37);
+
+    margin-left: 0em;
+    margin-bottom: 2em;
+
+    max-width: 40%;
+  }
+
+  .klein {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75%;
+    width: 75%;
+
+    margin-top: 2em;
+    margin-bottom: 4em;
+
+    border-top: 0.2em solid var(--background-kleur);
+    border-radius: 2em;
+  }
+
+  .groot {
+    display: none;
+  }
+}
+
+/* Artikelen op middelgrote schermen */
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  .lees {
+    text-align: left;
+    margin-top: 5em;
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+
+  .lees li {
+    font-family: "Raleway", sans-serif;
+    color: var(--blauw-kleur);
+
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  .lees ul {
+    margin-bottom: 4em;
+  }
+
+  .lees h2 {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 1em;
+    text-align: left;
+
+    padding: 0.8em;
+    border-radius: 2em;
+    background-color: var(--blauw-kleur);
+    box-shadow: 0px 0px 5px rgba(62, 62, 62, 0.37);
+
+    margin-left: 0em;
+    margin-bottom: 2em;
+
+    max-width: 40%;
+  }
+
+  .klein {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+
+    margin-top: 2em;
+    margin-bottom: 4em;
+
+    border-top: 0.2em solid var(--background-kleur);
+    border-radius: 2em;
+  }
+
+  .groot {
+    display: none;
+  }
+}
+
+/* Artikelen op grote schermen */
+@media screen and (min-width: 1201px) {
+  .lees {
+    text-align: left;
+    margin-top: 5em;
+    margin-left: 15em;
+    margin-right: 15em;
+  }
+
+  .lees img {
+    margin-left: 5em;
+  }
+
+  .lees li {
+    font-family: "Raleway", sans-serif;
+    color: var(--blauw-kleur);
+
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  .lees ul {
+    margin-bottom: 4em;
+  }
+
+  .lees h2 {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 1.3em;
+    text-align: left;
+
+    padding: 0.8em;
+    border-radius: 2em;
+    background-color: var(--blauw-kleur);
+    box-shadow: 0px 0px 5px rgba(62, 62, 62, 0.37);
+
+    margin-left: 0em;
+    margin-bottom: 2em;
+
+    max-width: 20%;
+  }
+
+  .groot {
+    float: right;
+    margin-left: 2em;
+    margin-right: auto;
+
+    height: auto;
+    max-width: 30%;
+
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    border-top: 0.2em solid var(--background-kleur);
+    border-radius: 2em;
+  }
+
+  .klein {
+    display: none;
+  }
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--blauw-kleur);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+footer hr {
+  border-top: 0.2em solid var(--background-kleur);
+  border-radius: 2em;
+
+  max-width: 90vw;
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+footer p {
+  font-family: "Raleway", sans-serif;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-left: 2em;
+}
+
+footer span {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+}
+
+footer img {
+  margin: 1em;
+}
+
+footer a{
+text-decoration: none;
+color: var(--background-kleur);
+}
+
+.footerinfo {
+  display: flex;
+  flex-direction: row;
+}
