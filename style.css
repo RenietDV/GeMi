@@ -515,8 +515,8 @@ header img {
 }
 
 .contact {
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 
   margin-top: 4em;
   margin-bottom: 2em;
@@ -587,7 +587,7 @@ margin-right: auto;
 
     margin-top: 1em;
     margin-bottom: 1em;
-        margin-left: 2em;
+    margin-left: 2em;
     margin-right: 2em;
   }
 
@@ -827,8 +827,7 @@ margin-right: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 75%;
-    width: 75%;
+    max-width: 50%;
 
     margin-top: 2em;
     margin-bottom: 4em;
@@ -938,7 +937,7 @@ margin-right: auto;
     margin-left: 0em;
     margin-bottom: 2em;
 
-    max-width: 20%;
+    max-width: 36%;
   }
 
   .groot {
@@ -1003,9 +1002,9 @@ footer img {
   margin: 1em;
 }
 
-footer a{
-text-decoration: none;
-color: var(--background-kleur);
+footer a {
+  text-decoration: none;
+  color: var(--background-kleur);
 }
 
 .footerinfo {
